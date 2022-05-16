@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dulces La Tata </title>
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap"
+    rel="stylesheet">
+    <link rel="preload" href="css/style.css" as="style"> 
+    <link href="css/style.css" rel="stylesheet">
+    
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html">
+            <img class="header__logo" src="img/ETIQUETA DULCE.png" alt="logotipo">
+            </a>
+    </header>
+
+    <div class="nav-bg">
+        <nav class="navegacion-principal contenedor">
+            <a href="index.html"> Inicio </a>
+            <a class="navegacion__enlace" href="tienda.html"> Tienda </a>
+            <a class="navegacion__enlace navegacion__enlace--activo" href="nosotros.html"> Nosotros </a>
+        </nav>
+    </div>
+
+    <main class="contenedor-producto">
+        <h1> Dulce De Naranja </h1>
+        <div class="dulces">
+            <img class="dulce__imagen" src="img/dulce1.jpg" alt="Imagen del Producto">
+
+            <div class="dulce__contenido">
+                <p> Maecenas consectetur ultricies mi vel venenatis. Curabitur risus tellus, congue non tellus at, semper dapibus turpis. Duis pellentesque, risus sit amet placerat porttitor, tortor augue volutpat ante, non dignissim odio ligula at arcu.</p>
+                
+                <form class="formulario-producto">
+                    <select class="formulario__campo">
+                        <option disabled selected> -- Seleccionar Cantidad --</option>
+                        <option>Frasco Chico </option>
+                        <option> Frasco Mediano </option>
+                        <option> Frasco Grande </option>
+                    </select>
+                    <input class="formulario__campo" type="number" placeholder="Cantidad" min="1">
+                    <input class="formulario__sumbit" type="sumbit" value="Agregar al Carrito ">
+
+                </form>
+         
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__texto"> Dulces la tata - Todos los derechos reservados 2021</p>
+    </footer>
